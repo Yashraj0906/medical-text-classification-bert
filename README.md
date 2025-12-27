@@ -33,13 +33,23 @@ The model predicts one of the following outcome categories:
 
 ## 📊 Dataset
 
+The dataset used in this project is publicly available on Kaggle:
+
+🔗 **Cannabis Research NLP Dataset**  
+https://www.kaggle.com/datasets/gustavospalencia/cannabis-research-nlp-dataset
+
+**Dataset details:**
 - ~12,000 medical research study titles
-- Each title is labeled with an outcome category
-- Dataset is **not included** in this repository due to size and licensing constraints
+- Focused on cannabis and cannabinoid-related studies
+- Labels represent study outcomes such as:
+  - Positive
+  - Negative
+  - Inconclusive
+  - Needs_AI
 
-The notebook can be easily adapted to any similar labeled text dataset.
+The dataset is **not included** in this repository due to size and licensing constraints.  
+Users can download it directly from Kaggle and update the dataset path in the notebook to reproduce the results.
 
----
 
 ## 📈 Results
 
